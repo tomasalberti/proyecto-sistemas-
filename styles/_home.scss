@@ -26,23 +26,38 @@
 
 .grid-H{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 15px;
     
     margin:30px ;
     margin-left: 10%;
     margin-right:10% ;
-    
+    margin-top:5%;
+
+
+    .box-H{
+        box-shadow: 2px 2px 30px  rgba(0, 0, 0, 0.438);
+        border-radius: 10px;
+        height:300px ;
+        
+        #img-box{
+            margin-left:37%;
+            margin-right:0px;
+            margin-top:20% ;
+            margin-bottom:10px ;
+        }
+       }
+
     .titulo-Grid-H{
-        display: flex;
-        justify-content: center;
-        h3{
+        
+        
             display: flex;
             justify-content: center;
+            margin-top: 20px;
             
-        }
+        
         }
     }
     .grid-H2{
@@ -137,7 +152,7 @@
     
 
     #dirigimos{
-        background-color: rgba(134, 255, 215, 0.26);
+       /* background-color: rgba(1, 120, 255, 0.027);*/
         padding-top:10px;
         padding-bottom: 30px;
     }
@@ -175,16 +190,18 @@
             }
             p{
                 display: flex;
-                justify-content: center;
+                justify-content:center;
                 align-items: center;
                 margin-top: 10%;
+                text-align: center;
             }
            
          }
       }
 
-
+      
       .carousel{
+        
         height: 850px;
       }
       .carousel-inner img {
@@ -195,3 +212,7 @@
         height: 850px;
         
        }
+
+body{
+    background-color: rgba(1, 120, 255, 0.027);
+} 
