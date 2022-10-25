@@ -1,0 +1,44 @@
+.portada{
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background: linear-gradient(to right,rgb(0 0 0 / .3),rgb(0 0 0 / .5)), url(https://dummyimage.com/1080x1200);;
+    background-size: cover;
+    background-position: center;
+    .text_portada{
+        color: rgb(221, 220, 220);
+        text-align: center;
+        width: 50%;
+        font-family: 'DotGothic16', sans-serif;
+        h1{
+           
+            font-size:7vh;
+        }
+    }
+}
+ 
+ 
+ 
+.portafolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+     ". . ."
+     ". . ."
+     ". . .";
+     gap: 50px 50px;    
+     margin-top:70px ;
+     margin-left:13% ;
+     margin-right:10% ;
+     
+     .card-text{
+        text-align: center;
+     }  
+     .btn-portafolio{
+        margin-left:70px ;
+     }
+}

@@ -4,13 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilos/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <title>Proyectos</title>
 </head>
 <body>
-<header>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+               
+               
+             
+            <div class="container-fluid">
+   
+              <a class="navbar-brand" href="../index.html">Logo :)</a>
+              <!--secciones-->
+              <div>
+                <ul class="textnav secciones">
+                  <li><a  href="../secciones/proyectos.html">proyectos</a></li>
+                 
+                  <li class="nav-item dropdown">
+                    <a class=" dropdown-toggle" href="../secciones/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li><a  href="">nosotros</a></li>
+                  <li><a  href="">Contactanos</a></li>
+                </ul>
+              </div>
+              <!---buscador-->
+              <form class="d-flex buscador" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+             
+             
+              <!--boton-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Logo Sofit</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+               
+               
+   
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../secciones/proyectos.html">Proyectos</a>
+                    </li>
+                   
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="../secciones/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">servicio 1</a></li>
+                        <li><a class="dropdown-item" href="#">servicio 2 </a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">servicio 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../secciones/nosotros.html">Nuestra empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../secciones/contacto.html">Contactanos</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+ 
+<!---portada-->
+<div class="portada">
+    <div class="text_portada">
+     <h1><b>Nuestros Proyectos</b></h1>
+     <p>aqui encontraras todos nuestros trabajos destacados   </p>
+     </div>
+</div>
+ 
+<!--grid portafolio-->
+<section>
+    <div class="portafolio">
+        <div class="card " style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+ 
+        </div>
+ 
+         <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+         </div>
+ 
+         <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+         </div>
+ 
+         <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+         </div>
+ 
+         <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+         </div>
+ 
+         <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+         </div>  
+         <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+            <img src="https://dummyimage.com/800x900" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-secondary btn-portafolio  ">Secondary</button>
+            </div>
+         </div>
+       
+    <div>  
+</section> 
 
 
 
