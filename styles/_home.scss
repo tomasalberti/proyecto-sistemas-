@@ -35,18 +35,25 @@
     margin-left: 10%;
     margin-right:10% ;
     margin-top:5%;
+    margin-bottom:15% ;
+    
 
 
     .box-H{
+        background-color: rgb(255, 255, 255);
         box-shadow: 2px 2px 30px  rgba(0, 0, 0, 0.438);
         border-radius: 10px;
         height:300px ;
         
+        
+        
         #img-box{
-            margin-left:37%;
-            margin-right:0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;           
             margin-top:20% ;
             margin-bottom:10px ;
+            
         }
        }
 
@@ -153,7 +160,7 @@
 
     #dirigimos{
        /* background-color: rgba(1, 120, 255, 0.027);*/
-        padding-top:10px;
+        padding-top:0px;
         padding-bottom: 30px;
     }
     .conte-dirigimos {
@@ -202,17 +209,50 @@
       
       .carousel{
         
-        height: 850px;
+        height: 800px;
       }
       .carousel-inner img {
         width: 100%;
-        max-height: 850px;
+        max-height: 800px;
     }
       .carousel-inner{
-        height: 850px;
+        height: 800px;
         
        }
 
 body{
-    background-color: rgba(1, 120, 255, 0.027);
+    background-color: rgba(1, 175, 255, 0.075);
 } 
+
+.contac-h{
+    width: 100%;
+    height: 80vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background: linear-gradient(to right,rgb(0 0 0 / .3),rgb(0 0 0 / .5)), url(../img/dev.jpg);;
+    background-size: cover;
+    background-position: center;
+    margin-top:5%;
+    .portada-h{
+        color: rgb(221, 220, 220);
+        text-align: center;
+        width: 70%;
+        font-family: 'DotGothic16', sans-serif;
+        h1{
+           
+            font-size:7vh;
+        }
+        p{
+            margin-top: 40px;
+            width: 70%;
+            margin-left:15% ;
+           
+        }
+        .btn{
+            margin-top:20px ;
+        }
+    }
+}
