@@ -1,7 +1,10 @@
+@media (min-width:1024px){
+
+
 .carrusel{
     margin-left:10px ;
     margin-right:10px;
-    margin-top:90px;
+    margin-top:80px;
     
         
 }
@@ -40,7 +43,7 @@
 
 
     .box-H{
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(128, 215, 255, 0.315);
         box-shadow: 2px 2px 30px  rgba(0, 0, 0, 0.438);
         border-radius: 10px;
         height:300px ;
@@ -179,7 +182,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: rgb(255, 255, 255);
+            background-color: rgba(70, 176, 247, 0.144);
             padding: 20px;
             border-radius:120%;
             margin-left: 85px;
@@ -220,9 +223,7 @@
         
        }
 
-body{
-    background-color: rgba(1, 175, 255, 0.075);
-} 
+
 
 .contac-h{
     width: 100%;
@@ -255,4 +256,5 @@ body{
             margin-top:20px ;
         }
     }
+}
 }

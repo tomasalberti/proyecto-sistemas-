@@ -1,21 +1,60 @@
-#texto-web{
-    margin-top: 0px;
-    h2{
-        margin-bottom: 40px;
-        display:flex;
-        justify-content: left;
+.sobre-web{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas:
+     ". . .";
+    grid-row-gap: 0px;    
+    margin-left:15% ;
+    margin-right:15% ;
+    margin-top:150px;
+    margin-bottom: 5%;
+    #texto-sobreweb{
+        margin-top: 0px;
+        font-size: large;
+        h2{
+            margin-bottom: 40px;
+        }
+        p{
+            margin-bottom:40px ;
+        }
+        .btn{
+           margin-bottom:5% ;
+        }
+    }
+    .conte-img-sobreweb{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin:15% ;
+        #img-sobreweb{
+            border-radius: 5%;
+            width:500px ;
+            height:300px ;
+        }
+    }
+    
+}
+
+
+
+.sobre-app{
+    margin-left: 20%;
+    margin-right: 20%;
+    h1{
+        display:flex ;
+        justify-content: center;
     }
     p{
-        margin-bottom:15px ;
- 
-    }
-    .btn{
-       margin-bottom:5% ;
-       margin-top:10px ;
+        display: flex;
+        justify-content:center ;
+        text-align: center;
+        margin-top:15px ;
     }
 }
- 
-.conte-web{
+
+.conte-app{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr;
@@ -28,30 +67,31 @@
     margin-top:0px;
     margin-bottom:2%;
  
-    .conte-pweb{
+    .conte-papp{
         margin-top:15%;
         font-size: large;
     }
-    #p-web{
+    #p-app{
         margin-left:5% ;
         margin-top: 0px;
         margin-bottom:5px ;
     }
-    .conte-img-web{
+    .conte-img-app{
         display: flex;
         justify-content:start;
         align-items:center;
         margin: 15% ;
  
     }
-    #img-web{
+    #img-app{
         border-radius: 5%;
         width:500px ;
         height:300px ;
     }
 }
 
-.grid-web{
+
+.grid-app{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -62,7 +102,7 @@
     margin-right:15% ;
     margin-top:0%;
     margin-bottom:10% ;
-    .conte-imgridweb{
+    .conte-imgapp{
         margin: 10%;
         margin-top:10px;
         margin-bottom:5%;
@@ -72,7 +112,7 @@
         align-items:center;
         
         #radius-img{
-            background-color: rgb(255, 255, 255);
+            background-color: rgba(103, 162, 250, 0.589);
             padding: 15px;
             border-radius: 50%;
         }
@@ -85,14 +125,14 @@
             justify-content: center;  
         }
     }
-    .textgrid-web{
+    .textgrid-app{
          h5{
             display: flex;
             justify-content: center;
             align-items: center;
             margin-top:0px ;
         }
-        #p-webgrid{          
+        #p-appgrid{          
             margin-top:5px;
                
         }
@@ -106,4 +146,3 @@
         
     }
 }
-    

@@ -2,25 +2,41 @@
     
      li{
         list-style-type: none;
+        
         a{
             text-decoration: none;
             color: rgb(255, 255, 255);
+            font-size: larger;
+        }
+        a:hover{
+            text-decoration: none;
+            color:#2fe0ff;
+            font-size: larger;
+            box-shadow:   0px 1px rgba(7, 2, 255, 0.384);
         }
     }
     
+    
+}
+
+.conte-secciones{
+    margin-right: 5%;
+    text-align: center;
 }
 .secciones {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 17px;
     grid-row-gap: 0px;
-    margin-top:20px ;
-    margin-left: 10%;
+    margin-top:5px ;
+    
+    
     }
     
     .navbar-brand{
-        margin-left: 15%;
+        margin-left: 5%;
+        margin-bottom:5px ;
     }
     .buscador{
         margin-left: 20%;
@@ -34,18 +50,28 @@
 
     nav.navbar {
         background-color: #1f9bb1;
-        padding-bottom:20px ;
+        padding-bottom:3px ;
        
     }
     header{
-        margin-bottom: 5%;
+        margin-bottom:1%;
     }
     
     .dropdown-menu{
         background-color: #2cd8f7;
         .dropdown-item{
             color:black ;
+            
+        }
+        .dropdown-item:hover{
+            text-decoration: none;
+            color:#000000;
+            font-size: larger;
+            background-color: #1500d32f;
+            box-shadow: none;
+           
         }
     }
-    
+  
+
    

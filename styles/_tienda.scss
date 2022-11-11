@@ -1,0 +1,66 @@
+.sobre-tienda{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas:
+     ". . .";
+    grid-row-gap: 0px;    
+    margin-left:15% ;
+    margin-right:15% ;
+    margin-top:150px;
+    margin-bottom: 5%;
+    #texto-sobretienda{
+        margin-top: 0px;
+        font-size: large;
+        h2{
+            margin-bottom: 40px;
+        }
+        p{
+            margin-bottom:40px ;
+        }
+        .btn{
+           margin-bottom:5% ;
+        }
+    }
+    .conte-img-sobretienda{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin:15% ;
+        #img-sobretienda{
+            border-radius: 5%;
+            width:500px ;
+            height:300px ;
+        }
+    }
+    
+}
+
+
+.sobre-tienda-text{
+         
+        margin-left: 20%;
+        margin-right: 20%;
+        h1{
+            display:flex ;
+            justify-content: center;
+        }
+        p{
+            display: flex;
+            justify-content:center ;
+            text-align: center;
+            margin-top:15px ;
+        }
+    }
+
+    .T-tienda{
+        h4{
+            margin-bottom:5% ;
+        }
+        margin:15% ;
+        margin-top:5% ;
+        margin-bottom:5% ;
+        font-size:large ;
+       
+    }   
