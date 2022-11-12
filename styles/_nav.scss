@@ -2,6 +2,7 @@
     
      li{
         list-style-type: none;
+        margin-right: 2%;
         
         a{
             text-decoration: none;
@@ -20,8 +21,8 @@
 }
 
 .conte-secciones{
-    margin-right: 5%;
-    text-align: center;
+    margin-right: 0%;
+    
 }
 .secciones {
     display: grid;
@@ -36,7 +37,11 @@
     
     .navbar-brand{
         margin-left: 5%;
-        margin-bottom:5px ;
+        margin-bottom:5px;
+        color: aliceblue;
+    }
+    .navbar-brand:hover{
+        color: aliceblue;
     }
     .buscador{
         margin-left: 20%;
@@ -49,7 +54,7 @@
     }
 
     nav.navbar {
-        background-color: #1f9bb1;
+        background-color: #159fdf;
         padding-bottom:3px ;
        
     }
@@ -58,7 +63,7 @@
     }
     
     .dropdown-menu{
-        background-color: #2cd8f7;
+        background-color: #9de0ff;
         .dropdown-item{
             color:black ;
             
@@ -73,5 +78,17 @@
         }
     }
   
+.offcanvas{
+    background-color: #1396d3;
+}
+
+.navbar-toggler-icon{
+    background-image:url(../img/PinClipart.com_cempasuchil-clipart_1812493.png)
+}
+
+.navbar-toggler{
+    border: white;
+    color: #00000025;
+}
 
    
