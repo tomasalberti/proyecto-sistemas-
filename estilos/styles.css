@@ -1,6 +1,9 @@
+.textnav {
+  margin-bottom: 2px;
+}
 .textnav li {
   list-style-type: none;
-  margin-right: 2%;
+  margin-right: 3%;
 }
 .textnav li a {
   text-decoration: none;
@@ -94,12 +97,6 @@ header {
   margin-bottom: 20px;
 }
 
-footer {
-  background-color: black;
-  padding: 30px;
-  margin-top: 20%;
-}
-
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -107,6 +104,60 @@ body {
 #botones a {
   color: aliceblue;
   text-decoration: none;
+}
+
+.conte-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+  grid-template-areas: ". . .";
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5%;
+}
+.conte-footer .servicios-footer {
+  margin-top: 10%;
+}
+.conte-footer .servicios-footer h4 {
+  text-align: center;
+}
+.conte-footer .servicios-footer p {
+  text-align: center;
+}
+.conte-footer .sofit-footer h2 {
+  text-align: center;
+}
+.conte-footer .sofit-footer p {
+  text-align: center;
+}
+.conte-footer .footer-contac {
+  margin-top: 10%;
+}
+.conte-footer .footer-contac h4 {
+  text-align: center;
+}
+.conte-footer .footer-contac p {
+  text-align: center;
+}
+.conte-footer .footer-contac .img-footer {
+  display: flex;
+  justify-content: center;
+}
+.conte-footer .footer-contac .img-footer img {
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+  background-color: rgba(4, 152, 221, 0.623);
+  border-radius: 40%;
+  width: 45px;
+  height: 45px;
+}
+
+#footer-separador {
+  background-color: rgba(4, 0, 255, 0.425);
+  padding: 1px;
 }
 
 .carrusel {
@@ -891,7 +942,7 @@ h2 {
 }
 
 .formulario {
-  background-color: rgba(196, 255, 255, 0.555);
+  background-color: rgba(196, 227, 255, 0.555);
   padding: 10%;
 }
 .formulario h3 {
@@ -942,6 +993,11 @@ h2 {
 .info h5 {
   margin-top: 10px;
 }
+.info img {
+  border-radius: 5%;
+  width: 70%;
+  height: 30%;
+}
 
 .form-check {
   margin-top: 5px;
@@ -949,4 +1005,24 @@ h2 {
 
 #boton-formulario {
   margin-top: 10%;
+}
+
+.contacto-portada {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/foco.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.contacto-portada .contacto-portada-texto {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 50%;
+  font-family: "DotGothic16", sans-serif;
+}
+.contacto-portada .contacto-portada-texto h1 {
+  font-size: 5vh;
 }/*# sourceMappingURL=styles.css.map */
