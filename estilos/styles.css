@@ -648,7 +648,7 @@ body {
 }
 .portada {
   width: 100%;
-  height: 95vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -657,24 +657,29 @@ body {
   background-position: center;
 }
 .portada .text_portada {
-  color: rgb(221, 220, 220);
+  color: white;
   text-align: center;
   width: 50%;
   font-family: "DotGothic16", sans-serif;
 }
 .portada .text_portada h1 {
-  font-size: 7vh;
+  font-size: 5vh;
 }
 
 .portafolio {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: ". . ." ". . ." ". . .";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "." "." "." "." "." "." "." ".";
   gap: 50px 50px;
   margin-top: 70px;
-  margin-left: 17%;
+  margin-left: 10%;
   margin-right: 10%;
+}
+.portafolio #conte-card-proyecto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .portafolio .card-text {
   text-align: center;
@@ -683,12 +688,16 @@ body {
   margin-left: 70px;
 }
 
+#h2-testi {
+  text-align: center;
+}
+
 .conte-testimonio {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 2fr;
+  grid-template-rows: 2fr;
   gap: 50px 40px;
-  grid-template-areas: ". . .";
+  grid-template-areas: "." "." "." "." "." ".";
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 80px;
@@ -719,7 +728,7 @@ body {
   margin-top: 0px;
 }
 .conte-testimonio .tex-testimonio #p-testi {
-  height: 150px;
+  height: 100%;
   margin-top: 10%;
   margin-bottom: 0%;
 }
@@ -730,6 +739,34 @@ body {
   align-items: center;
 }
 
+@media (min-width: 1024px) {
+  .portafolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ". . ." ". . .";
+    gap: 2% 2%;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .conte-testimonio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 40px;
+    grid-template-areas: ". . ." ". . .";
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 80px;
+    margin-bottom: 10%;
+  }
+  .conte-testimonio #linea-testi {
+    padding: 1px;
+    background-color: rgba(66, 127, 241, 0);
+    margin-top: 5px;
+  }
+}
 .nosotros-software {
   display: grid;
   grid-template-columns: 1fr 1fr;
