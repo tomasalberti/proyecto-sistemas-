@@ -1,6 +1,252 @@
 
+.carousel{
+        
+    height: 100%;
+    margin-left:10px ;
+    margin-right:10px;
+    margin-top:70px;
+  }
+  .carousel-inner img {
+    width: 100%;
+    max-height:100%;
+    height:100% ;
+    
+}
+  .carousel-inner{
+    height:100%;
+    min-height:100% ;
+    
+   }
+
+  
+  #sofit-nosotros{
+    margin-top: 10%;
+    text-align: center;
+  }
+  #sofit-t{
+    text-align: center;
+    margin-left:5% ;
+    margin-right:5% ;
+  }
+    .paises {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap:10px;
+    grid-row-gap: 10%;
+    margin-left:12% ;
+    margin-top:30px ;
+    .icono-map{
+        display: flex;
+        align-items: center;
+        
+    }
+    .img-icono{
+        width:40px;
+        height:40px;
+    }
+}
 
 
+.nosotros{
+            
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+         "."
+         ".";
+    margin-left:15% ;
+    margin-right:15% ;
+    margin-top:10%;
+    margin-bottom:10% ;
+
+    #texto{
+        margin-top: 50px;
+    }
+    .subrayado-n{
+        
+        padding: 1px;
+        background-color: black;
+        margin-left:0%;
+        margin-right:80%;
+        margin-top:10px ;
+        margin-bottom:15px ;
+        
+    }
+    #nosotros-t{
+        display:flex ;
+        justify-content:left;
+        margin-top:10px;
+    }
+    #img-nosotros{
+        margin-top:10% ;
+        width:100%;
+        height:100% ;
+    }
+}
+
+#dirigimos{
+    margin-top: 20%;
+    h2{
+        text-align: center;
+    }
+ }
+ .conte-dirigimos {
+     display: grid;
+     grid-template-columns: 1fr ;
+     grid-template-rows: 1fr 1fr 1fr;
+     grid-column-gap: 40px;
+     grid-template-areas:
+       "."
+       "."
+       ".";
+     margin-left:15% ;
+     margin-right:15% ;
+     margin-top:10%;
+  
+      .img-dirigimos{
+        
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color: rgba(70, 176, 247, 0.144);
+         padding: 20px;
+         border-radius:120%;
+         margin-left: 85px;
+         margin-right: 85px;
+         
+        
+      }
+      .tex-dirigimos{
+        
+         h4{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-top:10px ;
+         }
+         p{
+             display: flex;
+             justify-content:center;
+             align-items: center;
+             margin-top: 10%;
+             text-align: center;
+         }
+        
+      }
+   }
+
+.titulos-H{
+    
+    display: flex;
+    justify-content: center;
+    .texto-h{
+        margin: 70px;
+        
+           
+        
+    }
+    
+}
+
+.grid-H{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    
+    margin:30px ;
+    margin-left: 10%;
+    margin-right:10% ;
+    margin-top:5%;
+    margin-bottom:15% ;
+    
+
+
+    .box-H{
+        background-color: rgba(128, 215, 255, 0.315);
+        box-shadow: 2px 2px 30px  rgba(0, 0, 0, 0.438);
+        border-radius: 10px;
+        height:300px ;
+        
+        
+        
+        #img-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;           
+            margin-top:20% ;
+            margin-bottom:10px ;
+            
+        }
+       }
+
+    .titulo-Grid-H{
+        
+        
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            
+        
+        }
+    }   
+ 
+    .contac{
+        width: 100%;
+        height: 80vh;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        background: linear-gradient(to right,rgb(0 0 0 / .3),rgb(0 0 0 / .5)), url(../img/dev.jpg);;
+        background-size: cover;
+        background-position: center;
+        margin-top:5%;
+        .portada-contact-general{
+            color: rgb(221, 220, 220);
+            text-align: center;
+            width: 70%;
+            font-family: 'DotGothic16', sans-serif;
+            h1{
+               
+                font-size:4vh;
+                margin-bottom:5%;
+            }
+            p{
+                margin-top:10px;
+                width: 100%;
+               color: white;
+               
+            }
+            .btn{
+                margin-top:10px ;
+                a{
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+ .carousel-caption{
+    h1{
+        font-size: large;
+    }
+    p{
+        font-size: small;
+        text-align: center;
+    }
+ }     
+
+
+@media (min-width:1024px){
 .carrusel{
     margin-left:10px ;
     margin-right:10px;
@@ -8,7 +254,16 @@
     
         
 }
-
+.carousel-caption{
+    h1{
+        font-size: 6vh;
+        text-align: center;
+    }
+    p{
+        font-size: large;
+        text-align: center;
+    }
+ }  
 .sofit{
     margin:80px;
     margin-left: 10%;
@@ -224,42 +479,45 @@
        }
 
 
-
-.contac-h{
-    width: 100%;
-    height: 80vh;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    background: linear-gradient(to right,rgb(0 0 0 / .3),rgb(0 0 0 / .5)), url(../img/dev.jpg);;
-    background-size: cover;
-    background-position: center;
-    margin-top:5%;
-    .portada-h{
-        color: rgb(221, 220, 220);
-        text-align: center;
-        width: 70%;
-        font-family: 'DotGothic16', sans-serif;
-        h1{
-           
-            font-size:7vh;
-        }
-        p{
-            margin-top: 40px;
+       .contac{
+        width: 100%;
+        height: 80vh;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        background: linear-gradient(to right,rgb(0 0 0 / .3),rgb(0 0 0 / .5)), url(../img/dev.jpg);;
+        background-size: cover;
+        background-position: center;
+        margin-top:5%;
+        .portada-contact-general{
+            color: rgb(221, 220, 220);
+            text-align: center;
             width: 70%;
-            margin-left:15% ;
-           
-        }
-        .btn{
-            margin-top:20px ;
-            a{
-                color: aliceblue;
-                text-decoration: none;
+            font-family: 'DotGothic16', sans-serif;
+            h1{
+               
+                font-size:7vh;
+            }
+            p{
+                margin-top: 40px;
+                width: 70%;
+                margin-left:15% ;
+               
+            }
+            .btn{
+                margin-top:20px ;
+                a{
+                    color: aliceblue;
+                    text-decoration: none;
+                }
             }
         }
     }
-}
+    }
+
+
+    
 
 

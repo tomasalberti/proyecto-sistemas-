@@ -29,6 +29,105 @@ body{
 .conte-footer{
     
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+    grid-template-areas:
+     "."
+     "."
+     "."
+     
+     ;
+     margin-top:0% ;
+     margin-left:10% ;
+     margin-right: 10%;
+     padding-bottom:5% ;
+     
+     .servicios-footer{
+        margin-top: 10%;
+        h4{
+            text-align: center;
+            
+        }
+        p{
+            text-align: center;
+            
+        }
+     }
+
+     .sofit-footer{
+        h2{
+            text-align: center;
+           
+        }
+        p{
+            text-align: center;
+            
+        }
+     }
+
+     .footer-contac{
+        margin-top: 5%;
+        h4{
+            text-align: center;
+            
+        }
+        p{
+            text-align: center;
+            
+        }
+        .img-footer{
+            display: flex;
+            justify-content: center;
+            img{
+                margin:0px 0px 10px 10px ;
+                padding: 10px;
+                background-color: rgba(4, 152, 221, 0.623);
+                border-radius: 40%;
+                width:45px ;
+                height:45px ;
+            }
+        }
+     }
+     
+}
+
+
+
+#footer-separador{
+    background-color: rgba(4, 0, 255, 0.425);
+    padding: 1px;
+}
+@media (min-width:1024px){
+
+
+.subrayado{
+    background-color: black;
+     height: 2px;
+     margin-left:40% ;
+     margin-right:40% ;
+     margin-bottom:20px ;
+}
+
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+} 
+#botones{
+    a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+}
+
+
+
+.conte-footer{
+    
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr ;
     grid-column-gap: 40px;
@@ -97,5 +196,5 @@ body{
     padding: 1px;
 }
 
-    
+}    
     
