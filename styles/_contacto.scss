@@ -4,13 +4,9 @@
     padding:10% ;
    
     h3{
-        display:flex ;
-        justify-content: center;
-        text-align: center;
+       text-align: center;
     }
-    p{
-        display: flex;
-        justify-content:center ;
+    p{      
         text-align: center;
         margin-top:15px ;
         margin-left: 10%;
@@ -20,27 +16,30 @@
 }
 .form-info{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-column-gap: 0px;
     grid-template-areas:
-     ". . ";
+     "."
+     ".";
     grid-row-gap: 0px;    
-    margin-left:15% ;
-    margin-right:15% ;
+    margin-left:5% ;
+    margin-right:5% ;
     margin-top:5%;
     margin-bottom: 5%;
    
 }
 .conte-formulario{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-column-gap: 40px;
     grid-row-gap: 30px;
     grid-template-areas:
-     ". ."
-     ". .";
+     "."
+     "."
+     "."
+     ".";
      margin-top:10% ;
 }
  
@@ -84,13 +83,43 @@
     background-size: cover;
     background-position: center;
     .contacto-portada-texto{
-        color: rgb(255, 255, 255);
+        color: white;
         text-align: center;
         width: 50%;
         font-family: 'DotGothic16', sans-serif;
         h1{
-           
-            font-size:5vh;
+            font-weight: 400;
+            font-size:4vh;
         }       
     }
+}
+@media (min-width:1024px){
+    .form-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr ;
+        grid-column-gap: 0px;
+        grid-template-areas:
+         ". ."
+         ;
+        grid-row-gap: 0px;    
+        margin-left:15% ;
+        margin-right:15% ;
+        margin-top:5%;
+        margin-bottom: 5%;
+       
+    }
+    .conte-formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        grid-column-gap: 40px;
+        grid-row-gap: 30px;
+        grid-template-areas:
+         ". ."
+         ". ."
+         ;
+         margin-top:10% ;
+    }
+
 }
