@@ -10,6 +10,7 @@
     width: 100%;
     max-height:100%;
     height:100% ;
+    object-fit: cover;
     
 }
   .carousel-inner{
@@ -47,6 +48,7 @@
     .img-icono{
         width:40px;
         height:40px;
+        object-fit: cover;
     }
 }
 
@@ -90,6 +92,7 @@
         margin-top:10% ;
         width:100%;
         height:100% ;
+        
     }
 }
 
@@ -113,6 +116,7 @@
      margin-left:15% ;
      margin-right:15% ;
      margin-top:10%;
+     margin-bottom:10% ;
   
       .img-dirigimos{
         
@@ -124,6 +128,7 @@
          border-radius:120%;
          margin-left: 85px;
          margin-right: 85px;
+         object-fit: cover;
          
         
       }
@@ -174,7 +179,7 @@
     margin:30px ;
     margin-left: 10%;
     margin-right:10% ;
-    margin-top:5%;
+    margin-top:10%;
     margin-bottom:15% ;
     
 
@@ -218,6 +223,7 @@
         justify-content: center;
        
         background: linear-gradient(to right,rgb(0 0 0 / .3),rgb(0 0 0 / .5)), url(../img/dev.jpg);;
+        object-fit: cover;
         background-size: cover;
         background-position: center;
         margin-top:5%;

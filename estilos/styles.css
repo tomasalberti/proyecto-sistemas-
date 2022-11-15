@@ -140,6 +140,9 @@ body {
 .conte-footer .servicios-footer p {
   text-align: center;
 }
+.conte-footer .sofit-footer {
+  margin-top: 15%;
+}
 .conte-footer .sofit-footer h2 {
   text-align: center;
 }
@@ -241,6 +244,19 @@ body {
     padding: 1px;
   }
 }
+.icono {
+  position: fixed;
+  width: 80px;
+  height: 20px;
+  right: 2%;
+  bottom: 10%;
+  z-index: 1;
+}
+.icono img {
+  width: 70%;
+  border-radius: 40px;
+}
+
 .carousel {
   height: 100%;
   margin-left: 10px;
@@ -252,6 +268,7 @@ body {
   width: 100%;
   max-height: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .carousel-inner {
@@ -288,6 +305,7 @@ body {
 .paises .img-icono {
   width: 40px;
   height: 40px;
+  object-fit: cover;
 }
 
 .nosotros {
@@ -344,6 +362,7 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 .conte-dirigimos .img-dirigimos {
   display: flex;
@@ -354,6 +373,7 @@ body {
   border-radius: 120%;
   margin-left: 85px;
   margin-right: 85px;
+  object-fit: cover;
 }
 .conte-dirigimos .tex-dirigimos h4 {
   display: flex;
@@ -389,7 +409,7 @@ body {
   margin: 30px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 15%;
 }
 .grid-H .box-H {
@@ -418,6 +438,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/dev.jpg);
+  object-fit: cover;
   background-size: cover;
   background-position: center;
   margin-top: 5%;
@@ -1672,4 +1693,22 @@ body {
     grid-template-areas: ". ." ". .";
     margin-top: 10%;
   }
+}
+.viewer-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 500px) {
+  .viewer {
+    width: 100%;
+    height: 100vh;
+  }
+}
+.viewer {
+  width: 100%;
+  max-width: 95%;
+  aspect-ratio: 16/9;
 }/*# sourceMappingURL=styles.css.map */
