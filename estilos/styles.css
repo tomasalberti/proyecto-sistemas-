@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 .textnav {
   margin-bottom: 2px;
 }
@@ -9,6 +12,7 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: larger;
+  font-family: "Roboto", sans-serif;
 }
 .textnav li a:hover {
   text-decoration: none;
@@ -31,9 +35,18 @@
 }
 
 .navbar-brand {
-  margin-left: 5%;
-  margin-bottom: 5px;
+  margin-left: 0%;
+  margin-bottom: 0px;
   color: aliceblue;
+}
+
+#img-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+#img-nav a {
+  font-family: "Press Start 2P", cursive;
 }
 
 .navbar-brand:hover {
@@ -232,7 +245,7 @@ body {
   height: 100%;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .carousel-inner img {
@@ -249,6 +262,8 @@ body {
 #sofit-nosotros {
   margin-top: 10%;
   text-align: center;
+  color: rgb(6, 6, 133);
+  font-family: "Roboto", sans-serif;
 }
 
 #sofit-t {
@@ -302,6 +317,8 @@ body {
   display: flex;
   justify-content: left;
   margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(6, 6, 133);
 }
 .nosotros #img-nosotros {
   margin-top: 10%;
@@ -314,6 +331,8 @@ body {
 }
 #dirigimos h2 {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgb(6, 6, 133);
 }
 
 .conte-dirigimos {
@@ -341,6 +360,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  font-family: "Roboto", sans-serif;
 }
 .conte-dirigimos .tex-dirigimos p {
   display: flex;
@@ -353,6 +373,8 @@ body {
 .titulos-H {
   display: flex;
   justify-content: center;
+  color: rgb(6, 6, 133);
+  font-family: "Roboto", sans-serif;
 }
 .titulos-H .texto-h {
   margin: 70px;
@@ -425,6 +447,7 @@ body {
 
 .carousel-caption h1 {
   font-size: large;
+  font-family: "Roboto", sans-serif;
 }
 .carousel-caption p {
   font-size: small;
@@ -436,7 +459,7 @@ body {
     height: 80vh;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 70px;
+    margin-top: 90px;
   }
   .carousel-inner img {
     width: 100%;

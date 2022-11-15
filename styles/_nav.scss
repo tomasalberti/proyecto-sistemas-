@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .textnav{
     margin-bottom:2px ;
      li{
@@ -8,6 +11,8 @@
             text-decoration: none;
             color: rgb(255, 255, 255);
             font-size: larger;
+            font-family: 'Roboto', sans-serif;
+            
         }
         a:hover{
             text-decoration: none;
@@ -36,10 +41,20 @@
     }
     
     .navbar-brand{
-        margin-left: 5%;
-        margin-bottom:5px;
+        margin-left: 0%;
+        margin-bottom:0px;
         color: aliceblue;
+        
     }
+    #img-nav{
+        display: flex;
+        align-items: center;
+        margin-left:5% ;
+        a{
+            font-family: 'Press Start 2P', cursive;
+        }
+    }
+    
     .navbar-brand:hover{
         color: aliceblue;
     }
