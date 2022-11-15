@@ -1,4 +1,199 @@
+.nosotros-web{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas:
+     ". "
+     ". ";
+    grid-row-gap: 0px;    
+    margin-left:15% ;
+    margin-right:15% ;
+    margin-top:150px;
+    margin-bottom: 5%;
+
+    .conte-img-software{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        
+ 
+    }
+    #img-software{
+        border-radius: 5%;
+        width:100% ;
+        height:90%;
+    }
+}
+
 #texto-web{
+    margin-top: 0px;
+    h2{
+        margin-bottom: 20px;
+        display:flex;
+        justify-content: left;
+        text-align: center;
+    }
+    p{
+        margin-bottom:15px ;
+ 
+    }
+    .btn{
+       margin-bottom:5% ;
+       margin-top:10px ;
+    }
+}
+ .sobre-w{
+    margin-top:20% ;
+}
+.conte-web{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas:
+     "."
+     ".";
+    grid-row-gap: 0px;    
+    margin-left:15% ;
+    margin-right:15% ;
+    margin-top:10%;
+    margin-bottom:2%;
+    
+    .conte-pweb{
+        margin-top:5%;
+        font-size: medium;
+    }
+    #p-web{
+        margin-left:5% ;
+        margin-top: 0px;
+        margin-bottom:5px ;
+    }
+    .conte-img-web{
+        display: flex;
+        justify-content:start;
+        align-items:center;
+        
+ 
+    }
+    #img-web{
+        border-radius: 5%;
+        width:100% ;
+        height:50% ;
+    }
+}
+
+.grid-web{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 20px;  
+    grid-template-areas:
+      "."
+      "."
+      "."
+      "."
+      "."
+      ".";
+    margin-left:15% ;
+    margin-right:15% ;
+    margin-top:0%;
+    margin-bottom:10% ;
+    .conte-imgridweb{
+        margin: 10%;
+        margin-top:10px;
+        margin-bottom:5%;
+        
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        
+        #radius-img{
+            background-color: rgb(255, 255, 255);
+            padding: 15px;
+            border-radius: 50%;
+        }
+        img{
+            
+            width:50px;
+            height:50px ;
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+        }
+    }
+    .textgrid-web{
+         h5{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top:0px ;
+        }
+        #p-webgrid{          
+            margin-top:5px;
+               
+        }
+        p{
+            
+            text-align: center;
+           
+        }   
+        
+    }
+}
+@media (min-width:1024px){
+    .nosotros-web{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 40px;
+        grid-template-areas:
+         ". ."
+         ;
+        grid-row-gap: 0px;    
+        margin-left:10% ;
+        margin-right:15% ;
+        margin-top:150px;
+        margin-bottom: 5%;
+    }
+    .sobre-w{
+        margin-top:10% ;
+    }
+    .conte-web{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr ;
+        grid-column-gap: 40px;
+        grid-template-areas:
+         ". ."
+         ;
+        grid-row-gap: 0px;    
+        margin-left:10% ;
+        margin-right:15% ;
+        margin-top:5%;
+        margin-bottom:5%;
+        #img-web{
+            border-radius: 5%;
+            width:100% ;
+            height:100% ;
+        }
+    }
+    .grid-web{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        grid-template-rows:1fr 1fr  ;
+        gap: 40px 20px;  
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ;
+        margin-left:10% ;
+        margin-right:15% ;
+        margin-top:0%;
+        margin-bottom:0% ;
+    }
+/*#texto-web{
     margin-top: 0px;
     h2{
         margin-bottom: 40px;
@@ -105,5 +300,6 @@
         }   
         
     }
-}
+}*/
     
+}
